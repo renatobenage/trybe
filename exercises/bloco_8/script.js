@@ -1,51 +1,8 @@
-const array = [1, 2, 3];
-array.push(4)
+// const name = 'Maria'
 
-console.log(array)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const assert = require('assert');
-
-//     const singer = {
-//       name: 'Milton Nascimento',
-//       birthplace: 'Rio de Janeiro',
-//       city: 'Belo Horizonte',
-//       albuns: ['Minas', 'Geraes', 'Clube da Esquina', 'Cançao da America', 'Três pontas', 'Nascimento', 'Caçador de Mim']
-//     }
-
-//     const singer2 = {
-//       ame: 'Annita',
-//       birthplace: 'Rio de Janeiro',
-//       city: 'Rio de Janeiro',
-//       albuns: ['Xalbua 1', 'Xalbua 2']
-//     }
-
-//     const {name, birthplace, city, albuns} = singer;
-
-//     console.log(singer);
+function name(value) {
+  for (let index = 0; index < name.length; index++) {
+    console.log(value.length)
+  }
+}
+console.log(name('Maria'))
