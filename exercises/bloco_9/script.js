@@ -1,21 +1,4 @@
-const arrayObject = [
-  {
-    name: 'Renato',
-  },
-  {
-    lastname: 'Benage',
-  },
-  {
-    city: 'Rio de Janeiro',
-  },
-];
+const promise = new Promise((resolve, reject) => {
 
-console.log(arrayObject);
+});
 
-console.log(`${arrayObject}`);
-
-// const array = ['Renato', 'Benage', "Rio de Janeiro"];
-
-// console.log("normal" + arrayObject);
-
-// console.log(`${arrayObject}`);

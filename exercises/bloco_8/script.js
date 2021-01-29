@@ -1,73 +1,13 @@
-const musicians = [
-  {name: 'Renato', instrument: 'bass', official: true, inTheBand: ''},
-  {name: 'João', instrument: 'drum', official: false, inTheBand: ''},
-  {name: 'Evandro', instrument: 'piano', official: true, inTheBand: ''},
-];
+// getFirstValue([1, 2, 3]) ➞ 1
 
-const includeBand = xablau => {
-  if (xablau.official) {
-    xablau.inTheBand = 'Toca na Band'
-  } else {
-    xablau.inTheBand = 'Ainda não'
-  }
+// getFirstValue([80, 5, 100]) ➞ 80
+
+// getFirstValue([-500, 0, 50]) ➞ -500
+
+const array = [1, 2, 3]
+
+function getFirstValue (first) {
+  return first[0];
 }
 
-musicians.forEach(includeBand)
-
-console.log(musicians)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  // const students = [
-  //   { name: 'Maria', grade: 70, approved: '' },
-  //   { name: 'José', grade: 56, approved: '' },
-  //   { name: 'Roberto', grade: 90, approved: '' },
-  //   { name: 'Ana', grade: 81, approved: '' }
-  // ];
-
-  // console.log('string aqui!', students)
-
-  // function verifyGrade (xablau){
-  //   if (xablau.grade >= 60) {
-  //     xablau.approved = 'Aprovado';
-  //   } else {
-  //     xablau.approved = 'Recuperação';
-  //   }
-  // }
-
-  // let xena;
-  // for (xena = 0; xena < students.length; xena += 1) {
-  //   verifyGrade(students[xena]);
-  // }
-
-  // console.log(students);
-  // => [
-  //     { name: 'Maria', grade: 70, approved: 'Aprovado' },
-  //     { name: 'José', grade: 56, approved: 'Recuperação' },
-  //     { name: 'Roberto', grade: 90, approved: 'Aprovado' },
-  //     { name: 'Ana', grade: 81, approved: 'Aprovado' }
-  //   ]
+console.log(first(array))
