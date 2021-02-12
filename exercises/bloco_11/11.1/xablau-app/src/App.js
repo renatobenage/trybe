@@ -8,6 +8,7 @@ const element = <h1 classNome="teste">IIIIIIIT'S TIME!!!, {myFullName('Renato', 
 
 function App() {
   return (
+    // Mudanças
     <div>
       {element}
       {element}
