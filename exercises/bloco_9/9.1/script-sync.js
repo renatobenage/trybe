@@ -8,6 +8,12 @@ const function1 = () => {
 console.log('Função 1')
 }
 
+
+//* Atenção!!! Aqui precisa arrumar essa função!
+//? Atenção!!! Aqui precisa arrumar essa função!
+//! Atenção!!! Aqui precisa arrumar essa função!
+//todo: Atenção!!! Aqui precisa arrumar essa função!
+
 const function2 = () => {
   sleep(3000);
   console.log('Função 2')
