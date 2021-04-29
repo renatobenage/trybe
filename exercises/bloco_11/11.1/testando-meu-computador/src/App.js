@@ -1,11 +1,17 @@
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Component from './Component';
+import HelloMyFriends from './components/HelloMyFriends';
 
 function App() {
   return (
-    <Component />
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <HelloMyFriends />
+        <HelloMyFriends />
+        <a href="">learn react</a>
+      </header>
+    </div>
   );
 }
 
